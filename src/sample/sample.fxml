@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="240.0" prefWidth="271.0">
+         <children>
+            <Button fx:id="btn0" layoutX="50.0" layoutY="34.0" mnemonicParsing="false" onAction="#clickBtn0" prefHeight="85.0" prefWidth="85.0" text="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn1" layoutX="136.0" layoutY="34.0" mnemonicParsing="false" onAction="#clickBtn1" prefHeight="85.0" prefWidth="85.0" text="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" layoutX="50.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickBtn2" prefHeight="85.0" prefWidth="85.0" text="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" layoutX="136.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickBtn3" prefHeight="85.0" prefWidth="85.0" text="5">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
